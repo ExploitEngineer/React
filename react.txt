@@ -1,0 +1,16 @@
+Question no 1). What is React JS ?
+React JS is a javascript library for building front end applications or user interfaces (UI).
+React JS allows us to create reusable UI components.
+
+Compoenent - Compnents are the building blocks of any react app.
+
+It is created by facebook.
+
+Question no 2). Advantages of React JS ?
+Reusable components
+Open Source
+Efficient & Fast
+Works in Browser
+
+Question no 3). What is jsx ?
+Jsx stands for JavaScript XML (Adds html syntax into javascirpt)
