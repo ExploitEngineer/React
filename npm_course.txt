@@ -32,3 +32,23 @@ Rules:
 - The name can't start with a dot or an underscore.
 - New packages must not have uppercase letters in the name.
 - The name ends up being part of a URL, an argument on the command line, and a folder name. Therefore, the name can't contain any non-URL-safe characters.
+
+9). npm config - npm gets its config settings from the command line, envirnoment variables, npmrc files, and in some cases, the package.json file.
+
+10) npm config list - Show all config settings. Use -l to also show defaults. Use --json to show the settings in json format.
+
+11). npm config set key "value" - Sets the config key to the value. If value is omitted, then it sets it to "true".
+
+12). npm config edit
+
+13). npm config delete init-author-name
+
+14). npm install <packageName>
+
+15). npm install <Name>@<tag>
+
+16). npm innstall <Name>@<version>
+
+17). npm i <packageName>
+
+18). npm i <packageName> --save-dev
