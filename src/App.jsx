@@ -24,7 +24,7 @@ const App = () => {
                     {/* <LearnEvent /> */}
                     {/* <LearnLiftingStateUp myClick={getData} /> */}
                     {/* <LearnState /> */}
-                    <CounterApp />
+                    {/* <CounterApp /> */}
                 </div>
             </div>
         </>

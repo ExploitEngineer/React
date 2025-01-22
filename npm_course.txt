@@ -1,0 +1,34 @@
+Question no 1). What is Node Package Manager (NPM) ?
+npm is the package manager for JavaScript and the world's largest software registry. npm makes it for JavaScript developers to share and reuse code, and makes it easy to update the code that you're sharing, so you can build amazing things.
+Using (NPM) we can install modules or packages.
+
+Question no 2). How to install npm ?
+npm is distributed with Node.js which means that when you download Node.js, you automatically get npm installed on your computer.
+
+
+
+1). Check if npm is already installed
+npm -v
+NOTE: If you are getting error while doing that then you first have to install node js.
+
+2). Install Node Js
+
+3). npm -v
+
+4). npx -v
+
+5). (If you want to update you npm run this command)
+npm install npm@latest -g
+
+6). npm help
+
+7). npm init
+(This command is used to setup new or existing npm packages it creates package.json file and initilize npm)
+
+8). What is package.json file ?
+Package name - if you plan to publish your package, the most important things in your package are the name and version fields as they will be required. The name and version together form and identifier that is assumed to be completely unique. Changes to the package should come along with changes to the version. If you don't plan to publish your package, the name and version fields are optional.
+Rules:
+- The names must be less than or equal to 214 characters. This includes the scope for scoped packages.
+- The name can't start with a dot or an underscore.
+- New packages must not have uppercase letters in the name.
+- The name ends up being part of a URL, an argument on the command line, and a folder name. Therefore, the name can't contain any non-URL-safe characters.
