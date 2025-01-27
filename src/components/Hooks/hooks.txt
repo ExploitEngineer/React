@@ -1,2 +1,9 @@
-1. Hooks only work in functional components not in the class base components.
-2. Hooks will not work in the conditionals statements.
+Question no 1). Hooks only work in functional components not in the class base components.
+Question no 2). Hooks will not work in the conditionals statements.
+
+
+Question no 3). Life Cycle of components
+1. Constructed
+2. Mounted
+3. Updated
+4. Un-mounded
