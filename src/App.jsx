@@ -10,6 +10,7 @@ import LearnConditionalRendering from './components/LearnConditionalRendering'
 import Leranmap from './components/LearnMap'
 import LearnInlineCss from './components/LearnInlineCss'
 import LearnForm from './components/LearnForm'
+import UseState from './components/Hooks/UseState'
 
 const App = () => {
 
@@ -32,7 +33,8 @@ const App = () => {
                     {/* <LearnConditionalRendering /> */}
                     {/* <Leranmap /> */}
                     {/* <LearnInlineCss /> */}
-                    <LearnForm />
+                    {/* <LearnForm /> */}
+                    <UseState />
                 </div>
             </div>
         </>

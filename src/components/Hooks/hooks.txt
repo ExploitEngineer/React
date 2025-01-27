@@ -1,0 +1,2 @@
+1. Hooks only work in functional components not in the class base components.
+2. Hooks will not work in the conditionals statements.
