@@ -6,6 +6,10 @@ import LearnEvent from './components/LearnEvent'
 import LearnLiftingStateUp from './components/LearnLiftingStateUp'
 import LearnState from './components/LearnState'
 import CounterApp from './components/CounterApp'
+import LearnConditionalRendering from './components/LearnConditionalRendering'
+import Leranmap from './components/LearnMap'
+import LearnInlineCss from './components/LearnInlineCss'
+import LearnForm from './components/LearnForm'
 
 const App = () => {
 
@@ -24,7 +28,11 @@ const App = () => {
                     {/* <LearnEvent /> */}
                     {/* <LearnLiftingStateUp myClick={getData} /> */}
                     {/* <LearnState /> */}
-                    <CounterApp />
+                    {/* <CounterApp /> */}
+                    {/* <LearnConditionalRendering /> */}
+                    {/* <Leranmap /> */}
+                    {/* <LearnInlineCss /> */}
+                    <LearnForm />
                 </div>
             </div>
         </>
