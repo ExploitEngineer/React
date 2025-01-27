@@ -8,9 +8,9 @@ const Maintodo = () => {
         <>
             <div className='bg-white p-10 rounded-xl w-[500px] min-h-[300px] flex flex-col justify-between'>
                 <div>
-                    <Header />
+                    <Header title="Todo App" />
                     <Todoitem name="Eat" />
-                    <Todoitem name="Code" />
+                    <Todoitem name="Code" /> {/* completed={true} */}
                     <Todoitem name="Sleep" />
                     <Todoitem name="Repeat" />
                 </div>
