@@ -40,8 +40,8 @@ const App = () => {
                     {/* <LearnForm /> */}
                     {/* <UseState /> */}
                     {/* <TodoApplication /> */}
-                    {isVisible ? <UseEffect /> : <></>}
-                    <button className='text-white font-semibold font-mono px-3 py-1 rounded-xl bg-purple-600' onClick={() => setVisible(!isVisible)}>Cleanup</button>
+                    {/* {isVisible ? <UseEffect /> : <></>}
+                    <button className='text-white font-semibold font-mono px-3 py-1 rounded-xl bg-purple-600' onClick={() => setVisible(!isVisible)}>Cleanup</button> */}
                 </div>
             </div>
         </>
