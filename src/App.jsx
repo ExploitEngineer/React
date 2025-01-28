@@ -13,6 +13,8 @@ import LearnForm from './components/LearnForm';
 import UseState from './components/Hooks/UseState';
 import TodoApplication from './components/Todo_Application/Maintodo';
 import UseEffect from './components/Hooks/UseEffect';
+import UseMemo from './components/Hooks/UseMemo';
+import UseRef from './components/Hooks/UseRef';
 
 const App = () => {
 
@@ -42,6 +44,8 @@ const App = () => {
                     {/* <TodoApplication /> */}
                     {/* {isVisible ? <UseEffect /> : <></>}
                     <button className='text-white font-semibold font-mono px-3 py-1 rounded-xl bg-purple-600' onClick={() => setVisible(!isVisible)}>Cleanup</button> */}
+                    {/* <UseMemo /> */}
+                    {/* <UseRef /> */}
                 </div>
             </div>
         </>
