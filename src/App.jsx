@@ -16,6 +16,7 @@ import UseEffect from './components/Hooks/UseEffect';
 import UseMemo from './components/Hooks/UseMemo';
 import UseRef from './components/Hooks/UseRef';
 import UseCallback from './components/Hooks/UseCallback';
+import ChildA from './components/Props_Drilling/ChildA';
 
 const App = () => {
 
@@ -31,6 +32,8 @@ const App = () => {
     const Learning = useCallback(() => {
         // some operations
     }, [])
+
+    const name = "whoami";
 
     return (
         <>
@@ -56,6 +59,7 @@ const App = () => {
                     {/* <UseCallback Learning={Learning} />
                     <h1 className='text-white font-semibold text-xl font-mono text-center mb-3'>{add}</h1>
                     <button type='button' className='px-3 py-1 bg-rose-600 text-white font-semibold font-mono rounded-xl' onClick={() => setAdd(add + 1)}>Addition {add}</button> */}
+                    <ChildA name={name} />
                 </div>
             </div>
         </>
