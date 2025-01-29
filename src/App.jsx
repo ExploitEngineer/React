@@ -41,6 +41,8 @@ const App = () => {
     // BrowserRouter, Routes, Route
     // What is link in react ?
 
+    // useNavigation
+
     return (
         <>
             <div className='w-full h-screen bg-zinc-900 flex justify-center items-center relative'>
