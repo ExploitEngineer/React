@@ -17,7 +17,9 @@ import UseEffect from './components/Hooks/UseEffect';
 import UseMemo from './components/Hooks/UseMemo';
 import UseRef from './components/Hooks/UseRef';
 import UseCallback from './components/Hooks/UseCallback';
-import { div } from 'framer-motion/client';
+import Home from './components/React_Router/Home';
+import About from './components/React_Router/About';
+import Contact from './components/React_Router/Contact';
 
 const App = () => {
 
@@ -64,9 +66,9 @@ const App = () => {
                     <h1 className='text-white font-semibold text-xl font-mono text-center mb-3'>{add}</h1>
                     <button type='button' className='px-3 py-1 bg-rose-600 text-white font-semibold font-mono rounded-xl' onClick={() => setAdd(add + 1)}>Addition {add}</button> */}
                     <Routes>
-                        <Route path='/' element={<div className='text-white font-semibold font-mono text-xl'>I am home page</div>} />
-                        <Route path='/about' element={<div className='text-white font-semibold font-mono text-xl'>I am About page</div>} />
-                        <Route path='/contact' element={<div className='text-white font-semibold font-mono text-xl'>I am Contact Page</div>} />
+                        <Route path='/' element={<Home />} />
+                        <Route path='/about' element={<About />} />
+                        <Route path='/contact' element={<Contact />} />
                     </Routes>
                 </div>
             </div>
