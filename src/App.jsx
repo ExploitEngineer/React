@@ -37,6 +37,7 @@ const App = () => {
 
     // Routing
     // BrowserRouter, Routes, Route
+    // What is link in react ?
 
     return (
         <>
@@ -65,7 +66,6 @@ const App = () => {
                     <Routes>
                         <Route path='/' element={<div className='text-white font-semibold font-mono text-xl'>I am home page</div>} />
                         <Route path='/about' element={<div className='text-white font-semibold font-mono text-xl'>I am About page</div>} />
-                        <Route path='/services' element={<div className='text-white font-semibold font-mono text-xl'>I am Services page</div>} />
                         <Route path='/contact' element={<div className='text-white font-semibold font-mono text-xl'>I am Contact Page</div>} />
                     </Routes>
                 </div>
