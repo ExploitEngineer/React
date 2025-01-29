@@ -1,0 +1,4 @@
+// What is context Api ?
+// three thing you need to remember while using context api | create, provider & consumer.
+// How to use it ?
+// is context api also problematic ?

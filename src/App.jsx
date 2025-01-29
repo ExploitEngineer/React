@@ -1,4 +1,5 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, createContext } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import LearnComponent from './components/LearnComponent';
 import LearnJsx from './components/LearnJsx';
 import LearnProps from './components/LearnProps';
@@ -10,13 +11,13 @@ import LearnConditionalRendering from './components/LearnConditionalRendering';
 import Leranmap from './components/LearnMap';
 import LearnInlineCss from './components/LearnInlineCss';
 import LearnForm from './components/LearnForm';
-import UseState from './components/Hooks/UseState';
 import TodoApplication from './components/Todo_Application/Maintodo';
+import UseState from './components/Hooks/UseState';
 import UseEffect from './components/Hooks/UseEffect';
 import UseMemo from './components/Hooks/UseMemo';
 import UseRef from './components/Hooks/UseRef';
 import UseCallback from './components/Hooks/UseCallback';
-import ChildA from './components/Props_Drilling/ChildA';
+import { div } from 'framer-motion/client';
 
 const App = () => {
 
@@ -33,7 +34,9 @@ const App = () => {
         // some operations
     }, [])
 
-    const name = "whoami";
+
+    // Routing
+    // BrowserRouter, Routes, Route
 
     return (
         <>
@@ -59,7 +62,12 @@ const App = () => {
                     {/* <UseCallback Learning={Learning} />
                     <h1 className='text-white font-semibold text-xl font-mono text-center mb-3'>{add}</h1>
                     <button type='button' className='px-3 py-1 bg-rose-600 text-white font-semibold font-mono rounded-xl' onClick={() => setAdd(add + 1)}>Addition {add}</button> */}
-                    <ChildA name={name} />
+                    <Routes>
+                        <Route path='/' element={<div className='text-white font-semibold font-mono text-xl'>I am home page</div>} />
+                        <Route path='/about' element={<div className='text-white font-semibold font-mono text-xl'>I am About page</div>} />
+                        <Route path='/services' element={<div className='text-white font-semibold font-mono text-xl'>I am Services page</div>} />
+                        <Route path='/contact' element={<div className='text-white font-semibold font-mono text-xl'>I am Contact Page</div>} />
+                    </Routes>
                 </div>
             </div>
         </>

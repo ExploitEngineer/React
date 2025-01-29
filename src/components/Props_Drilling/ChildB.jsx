@@ -1,9 +1,9 @@
 import ChildC from './ChildC';
 
-const ChildB = ({name}) => {
+const ChildB = () => {
     return (
         <>
-            <ChildC name={name} />
+            <ChildC />
         </>
     )
 }
