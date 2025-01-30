@@ -19,6 +19,7 @@ const UseMemo = () => {
                 <span>{add}</span><br />
                 <button type="button" className='px-3 py-1 me-6 bg-green-600 rounded-xl' onClick={() => setMinus(minus - 1)}>Substraction</button>
                 <span>{minus}</span>
+                <button type='button' className='bg-purple-500' onClick={() => setMinus(minus - 1)}>{minus}</button>
             </div>
         </>
     )
