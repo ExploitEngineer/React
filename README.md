@@ -36,7 +36,7 @@ Make sure you have the following installed on your system:
 ### Steps to Install and Run
 ```bash
 # Step 1: Clone the repository
-$ git clone https://github.com/DSnake0/React_Basics.git
+$ git clone https://github.com/ExploitEngineer/React_Basics.git
 
 # Step 2: Navigate to the project directory
 $ cd react-basics-counter-app
@@ -65,7 +65,7 @@ To ensure seamless setup, here is a bash script for quick installation:
 
 # Clone the repository
 echo "Cloning the repository..."
-git clone https://github.com/DSnake0/React_Basics.git
+git clone https://github.com/ExploitEngineer/React_Basics.git
 
 # Navigate to the project directory
 echo "Navigating to the project directory..."
