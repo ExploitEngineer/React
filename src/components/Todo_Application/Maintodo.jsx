@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../Todo_Application/Header'
 import Todoitem from '../Todo_Application/Todoitem'
 import TodoButton from '../Todo_Application/TodoButton'

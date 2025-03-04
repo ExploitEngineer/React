@@ -1,5 +1,3 @@
-import React from 'react'
-
 let model = "G11234"
 
 const LearnJsx = () => {
