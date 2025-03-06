@@ -3,6 +3,8 @@ import ChildA from './ChildA';
 
 const ContextApi = () => {
 
+    // create, provide, consumer
+
     const name = "whoami";
 
     const data = createContext();
@@ -17,3 +19,4 @@ const ContextApi = () => {
 }
 
 export default ContextApi;
+export {data};
