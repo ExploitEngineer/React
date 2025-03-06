@@ -24,6 +24,24 @@ const UseEffect = () => {
         return () => { console.log("Returning count", count) }
     }, [count]); // <--- this will run when the component is upated
 
+    useEffect(() => {
+        async function getProducts() {
+            try {
+                const url = 'https://dummyjson.com/products';
+                const res = await fetch(url);
+                if (!res.ok) {
+                    throw new Error(`HTTP error! Status: ${res.status}`);
+                }
+                const data = await res.json();
+                console.log(data);
+            } catch (error) {
+                console.error("Error fetching products:", error.message);
+            }
+        }
+        getProducts();
+    }, [])
+
+
     return (
         <>
             <div className='text-white font-mono font-semibold'>

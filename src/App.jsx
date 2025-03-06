@@ -1,3 +1,7 @@
+import React from 'react';
+import UseEffect from './components/Hooks/UseEffect';
+import ClassComponent from './components/ClassComponent';
+
 const App = () => {
 
     /* let roll = 101;
@@ -22,9 +26,9 @@ const App = () => {
 
     return (
         <>
-            <div className='w-full h-screen bg-zinc-900 flex justify-center items-center relative'>
-                <div>
-                </div>
+            <div className='w-full h-screen bg-zinc-900 flex justify-center items-center'>
+                <UseEffect />
+                <ClassComponent />
             </div>
         </>
     )
