@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 node_modules/
+Complete_React_Redux/.gitignore
+Complete_React_Redux/node_modules
+Complete_React_Redux/README.md
