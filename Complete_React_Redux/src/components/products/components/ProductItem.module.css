@@ -1,0 +1,7 @@
+.buttonStyle {
+    background: white !important;
+    color: black;
+    font-size: 15px;
+    padding: 5px 26px;
+    border-radius: 10px;
+}

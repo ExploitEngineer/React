@@ -1,5 +1,7 @@
+import styles from './ProductItem.module.css';
+
 const ButtonComponent = () => {
-    return <button className="btn  btn-accent">Click</button>
+    return <button className={styles.buttonStyle}>Click</button>
 };
 
 const ProductItem = ({ singleProductItem, key }) => {
