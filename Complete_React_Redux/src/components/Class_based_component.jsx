@@ -14,6 +14,18 @@ class ClassBasedComponent extends Component {
         })
     };
 
+    // componentDidMount
+    // componentDidUpdate
+    // componenetWillUnmount
+
+    componentDidMount() {
+        console.log('This is called first time on page load.')
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        console.log("Run on update", prevProps, prevState);
+    }
+
     render() {
 
         console.log(this.state);
