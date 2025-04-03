@@ -4,8 +4,8 @@ const ButtonComponent = () => {
 
 const ProductItem = ({ singleProductItem, key }) => {
     return (
-        <div className="text-center text-2xl text-white font-semibold font-mono">
-            <p key={key}>{singleProductItem}</p>
+        <div key={key} className="text-center text-2xl text-white font-semibold font-mono">
+            <p>{singleProductItem}</p>
             <ButtonComponent />
         </div>
     );
