@@ -2,6 +2,7 @@ import ClassBasedComponent from './components/Class_based_component';
 import FunctionalComponent from './components/Function_based_component';
 import ProductList from './components/products';
 import Users from './components/users/index';
+import Props from './components/props/Props';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
                 {/* <FunctionalComponent /> */}
                 {/* <ProductList data={dummyProducts} name='rafay' city='Islamabad' /> */}
                 {/* <Users /> */}
+                <Props />
             </div>
         </div>
     )
