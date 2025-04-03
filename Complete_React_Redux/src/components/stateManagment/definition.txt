@@ -1,0 +1,1 @@
+// State in React : State is Component-specific data that changes over time and triggers re-renders when updated. Unlike props, state is fully controlled by the component itself. 
