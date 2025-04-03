@@ -6,7 +6,7 @@ const ButtonComponent = () => {
 
 const ProductItem = ({ singleProductItem, key }) => {
     return (
-        <div key={key} className="text-center text-2xl text-white font-semibold font-mono">
+        <div style={{ padding: '20px', border: '2px solid red', marginBottom: '12px' }} key={key} className="text-center text-2xl text-white font-semibold font-mono">
             <p>{singleProductItem}</p>
             <ButtonComponent />
         </div>
