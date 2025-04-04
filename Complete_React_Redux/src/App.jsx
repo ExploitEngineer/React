@@ -42,9 +42,9 @@ const App = () => {
                 {/* <ControlledForm /> */}
                 {/* <Types name='rafay' age={17} /> */}
                 {/* <DefaultProps /> */}
-                <ChildrenProp name='rafay'>
+                {/* <ChildrenProp name='rafay'>
                     <p>This code still works.</p>
-                </ChildrenProp>
+                </ChildrenProp> */}
             </div>
         </div>
     )

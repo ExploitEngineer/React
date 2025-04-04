@@ -1,0 +1,11 @@
+Rules of using hooks
+what is useState hook
+syntax of useState
+Basic usage
+Updating state - direct update (stale state issue) & Functional update
+Initial state - Primitive Value & Complex values(object, arrays)
+State with Objects & Arrays
+Lazy Initialization
+State with multiple variables
+Advanced patterns
+Common mistakes to avoid
