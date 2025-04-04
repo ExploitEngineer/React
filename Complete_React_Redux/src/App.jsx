@@ -7,6 +7,7 @@ import FunctionState from './components/stateManagement/FunctionState';
 import FunctionStateForm from './components/stateManagement/FunctionStateForm';
 import UserGreeting from './components/conditionalRendering/UserGreeting';
 import List from './components/Lists_Keys/List';
+import Button from './components/EventHandling/Button';
 
 const App = () => {
 
@@ -33,6 +34,7 @@ const App = () => {
                 {/* <FunctionStateForm /> */}
                 {/* <UserGreeting isLoggedIn={true} username='Rafay' /> */}
                 {/* <List items={fruits} Category="Fruits" /> */}
+                <Button />
             </div>
         </div>
     )
