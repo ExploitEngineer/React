@@ -10,6 +10,7 @@ import List from './components/Lists_Keys/List';
 import Button from './components/EventHandling/Button';
 import { ControlledForm } from './components/reactForm/ControlledForm';
 import Types from './components/props/Tyes';
+import DefaultProps from './components/props/DefaultProps';
 
 const App = () => {
 
@@ -38,7 +39,8 @@ const App = () => {
                 {/* <List items={fruits} Category="Fruits" /> */}
                 {/* <Button /> */}
                 {/* <ControlledForm /> */}
-                <Types name='rafay' age={17} />
+                {/* <Types name='rafay' age={17} /> */}
+                <DefaultProps />
             </div>
         </div>
     )
