@@ -11,6 +11,7 @@ import Button from './components/EventHandling/Button';
 import { ControlledForm } from './components/reactForm/ControlledForm';
 import Types from './components/props/Tyes';
 import DefaultProps from './components/props/DefaultProps';
+import ChildrenProp from './components/props/ChildrenProp';
 
 const App = () => {
 
@@ -40,7 +41,10 @@ const App = () => {
                 {/* <Button /> */}
                 {/* <ControlledForm /> */}
                 {/* <Types name='rafay' age={17} /> */}
-                <DefaultProps />
+                {/* <DefaultProps /> */}
+                <ChildrenProp name='rafay'>
+                    <p>This code still works.</p>
+                </ChildrenProp>
             </div>
         </div>
     )
