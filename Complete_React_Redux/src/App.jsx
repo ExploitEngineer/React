@@ -16,6 +16,7 @@ import State from './components/Hooks/useState/State';
 import AdvanceState from './components/Hooks/useState/AdvanceState';
 import UseEffect from './components/Hooks/useEffect/UseEffect';
 import { ApiFetchuseEffect } from './components/Hooks/useEffect/UseEffect';
+import UseRef from './components/Hooks/useRef/UseRef';
 
 const App = () => {
 
@@ -52,7 +53,8 @@ const App = () => {
                 {/* <State /> */}
                 {/* <AdvanceState /> */}
                 {/* <UseEffect /> */}
-                <ApiFetchuseEffect />
+                {/* <ApiFetchuseEffect /> */}
+                <UseRef />
             </div>
         </div>
     )
