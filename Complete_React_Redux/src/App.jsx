@@ -9,6 +9,7 @@ import UserGreeting from './components/conditionalRendering/UserGreeting';
 import List from './components/Lists_Keys/List';
 import Button from './components/EventHandling/Button';
 import { ControlledForm } from './components/reactForm/ControlledForm';
+import Types from './components/props/Tyes';
 
 const App = () => {
 
@@ -36,7 +37,8 @@ const App = () => {
                 {/* <UserGreeting isLoggedIn={true} username='Rafay' /> */}
                 {/* <List items={fruits} Category="Fruits" /> */}
                 {/* <Button /> */}
-                <ControlledForm />
+                {/* <ControlledForm /> */}
+                <Types name='rafay' age={17} />
             </div>
         </div>
     )
