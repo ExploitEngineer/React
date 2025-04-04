@@ -12,6 +12,8 @@ import { ControlledForm } from './components/reactForm/ControlledForm';
 import Types from './components/props/Tyes';
 import DefaultProps from './components/props/DefaultProps';
 import ChildrenProp from './components/props/ChildrenProp';
+import State from './components/Hooks/useState/State';
+import AdvanceState from './components/Hooks/useState/AdvanceState';
 
 const App = () => {
 
@@ -45,6 +47,8 @@ const App = () => {
                 {/* <ChildrenProp name='rafay'>
                     <p>This code still works.</p>
                 </ChildrenProp> */}
+                {/* <State /> */}
+                <AdvanceState />
             </div>
         </div>
     )

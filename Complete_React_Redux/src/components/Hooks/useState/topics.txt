@@ -1,5 +1,14 @@
 Rules of using hooks
+- must be written in function components
+- must be import in component
+- must be call at the top level of component
+- cannot be conditonal
+
+
 what is useState hook
+- useState is a React Hook that let's you add a state variable to your component.
+
+
 syntax of useState
 Basic usage
 Updating state - direct update (stale state issue) & Functional update
