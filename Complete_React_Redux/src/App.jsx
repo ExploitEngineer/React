@@ -3,6 +3,9 @@ import FunctionalComponent from './components/Function_based_component';
 import ProductList from './components/products';
 import Users from './components/users/index';
 import Props from './components/props/Props';
+import FunctionState from './components/stateManagement/FunctionState';
+import FunctionStateForm from './components/stateManagement/FunctionStateForm';
+import UserGreeting from './components/conditionalRendering/UserGreeting';
 
 const App = () => {
 
@@ -16,7 +19,10 @@ const App = () => {
                 {/* <FunctionalComponent /> */}
                 {/* <ProductList data={dummyProducts} name='rafay' city='Islamabad' /> */}
                 {/* <Users /> */}
-                <Props />
+                {/* <Props /> */}
+                {/* <FunctionState /> */}
+                {/* <FunctionStateForm /> */}
+                <UserGreeting isLoggedIn={true} username='Rafay' />
             </div>
         </div>
     )
