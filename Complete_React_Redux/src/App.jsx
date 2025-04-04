@@ -6,10 +6,19 @@ import Props from './components/props/Props';
 import FunctionState from './components/stateManagement/FunctionState';
 import FunctionStateForm from './components/stateManagement/FunctionStateForm';
 import UserGreeting from './components/conditionalRendering/UserGreeting';
+import List from './components/Lists_Keys/List';
 
 const App = () => {
 
     const dummyProducts = ['Product 1', 'Product 2', 'Product 3'];
+
+    const fruits = [
+        { id: 1, name: "apple", calories: 95 },
+        { id: 2, name: "orange", calories: 45 },
+        { id: 3, name: "banana", calories: 105 },
+        { id: 4, name: "coconut", calories: 159 },
+        { id: 5, name: "pineapple", calories: 37 }
+    ];
 
     return (
         <div className="w-full min-h-screen flex items-center justify-center bg-zinc-800">
@@ -22,7 +31,8 @@ const App = () => {
                 {/* <Props /> */}
                 {/* <FunctionState /> */}
                 {/* <FunctionStateForm /> */}
-                <UserGreeting isLoggedIn={true} username='Rafay' />
+                {/* <UserGreeting isLoggedIn={true} username='Rafay' /> */}
+                {/* <List items={fruits} Category="Fruits" /> */}
             </div>
         </div>
     )
