@@ -1,0 +1,19 @@
+What is useEffect Hook ?
+- useEffect is a React Hook that allows you to perform side effects in functional components .
+side Effects Like:
+- Fetching Data from an API
+- Updating the DOM
+- Running Timers (setInterval, setTimeout)
+- Listening for user actions
+
+
+why do we need useEffect ?
+- React Functional components don't have lifecycle methods like class Components (componentDidMount, componentDidUpdate, componentWillUnmount). The useEffect Hook fills this gap by letting us perform side effects in a cleaned structured way .
+
+
+syntax of useEffect and basic usage
+Dependency Array in useEffect
+Cleanup Function in useEffect
+Advanced Use Casses of useEffect
+Common mistakes and best practices
+Optimizing Performance

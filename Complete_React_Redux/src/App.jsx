@@ -14,6 +14,8 @@ import DefaultProps from './components/props/DefaultProps';
 import ChildrenProp from './components/props/ChildrenProp';
 import State from './components/Hooks/useState/State';
 import AdvanceState from './components/Hooks/useState/AdvanceState';
+import UseEffect from './components/Hooks/useEffect/UseEffect';
+import { ApiFetchuseEffect } from './components/Hooks/useEffect/UseEffect';
 
 const App = () => {
 
@@ -48,7 +50,9 @@ const App = () => {
                     <p>This code still works.</p>
                 </ChildrenProp> */}
                 {/* <State /> */}
-                <AdvanceState />
+                {/* <AdvanceState /> */}
+                {/* <UseEffect /> */}
+                <ApiFetchuseEffect />
             </div>
         </div>
     )
