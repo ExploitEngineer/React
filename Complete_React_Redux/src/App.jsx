@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import ClassBasedComponent from './components/Class_based_component';
 import FunctionalComponent from './components/Function_based_component';
 import ProductList from './components/products';
@@ -17,6 +18,7 @@ import AdvanceState from './components/Hooks/useState/AdvanceState';
 import UseEffect from './components/Hooks/useEffect/UseEffect';
 import { ApiFetchuseEffect } from './components/Hooks/useEffect/UseEffect';
 import UseRef from './components/Hooks/useRef/UseRef';
+import Navbar from './components/Navbar';
 
 const App = () => {
 
@@ -30,9 +32,11 @@ const App = () => {
         { id: 5, name: "pineapple", calories: 37 }
     ];
 
+    const [count, setCount] = useState(29);
+
     return (
         <div className="w-full min-h-screen flex items-center justify-center bg-zinc-800">
-            <div className='flex flex-col justify-center text-white font-semibold text-2xl text-center space-y-4'>
+            <div className='space-y-4'>
                 <h1 className='text-purple-700'>React JS Concepts 2024</h1>
                 {/* <ClassBasedComponent /> */}
                 {/* <FunctionalComponent /> */}
@@ -54,7 +58,8 @@ const App = () => {
                 {/* <AdvanceState /> */}
                 {/* <UseEffect /> */}
                 {/* <ApiFetchuseEffect /> */}
-                <UseRef />
+                {/* <UseRef /> */}
+                <Navbar count={count} />
             </div>
         </div>
     )
