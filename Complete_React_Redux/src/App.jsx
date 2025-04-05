@@ -25,6 +25,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/reactRouter/Home';
 import About from './components/reactRouter/About';
 import Contact from './components/reactRouter/Contact';
+import UseNavigation from './components/reactRouter/useNavigation/UseNavigation';
 
 const App = () => {
 
@@ -70,10 +71,12 @@ const App = () => {
                 </CounterContext.Provider> */}
                 {/* <CustomHook /> */}
                 {/* Routes, Route */}
+                {/*  useNavigation Hook */}
                 <Routes>
                     <Route element={<Home />} path='/' />
                     <Route element={<About />} path='/about' />
                     <Route element={<Contact />} path='/contact' />
+                    <Route element={<UseNavigation />} path='/navigate' />
                 </Routes>
             </div>
         </div>
