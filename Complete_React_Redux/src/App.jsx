@@ -20,6 +20,7 @@ import { ApiFetchuseEffect } from './components/Hooks/useEffect/UseEffect';
 import UseRef from './components/Hooks/useRef/UseRef';
 import Navbar from './components/Navbar';
 import { CounterContext } from './components/context/context';
+import CustomHook from './components/Hooks/customHook/CustomHook';
 
 const App = () => {
 
@@ -60,9 +61,10 @@ const App = () => {
                 {/* <UseEffect /> */}
                 {/* <ApiFetchuseEffect /> */}
                 {/* <UseRef /> */}
-                <CounterContext.Provider value={{ count, setCount }}>
+                {/* <CounterContext.Provider value={{ count, setCount }}>
                     <Navbar />
-                </CounterContext.Provider>
+                </CounterContext.Provider> */}
+                <CustomHook />
             </div>
         </div>
     )
