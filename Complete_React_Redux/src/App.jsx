@@ -21,6 +21,10 @@ import UseRef from './components/Hooks/useRef/UseRef';
 import Navbar from './components/Navbar';
 import { CounterContext } from './components/context/context';
 import CustomHook from './components/Hooks/customHook/CustomHook';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/reactRouter/Home';
+import About from './components/reactRouter/About';
+import Contact from './components/reactRouter/Contact';
 
 const App = () => {
 
@@ -64,7 +68,13 @@ const App = () => {
                 {/* <CounterContext.Provider value={{ count, setCount }}>
                     <Navbar />
                 </CounterContext.Provider> */}
-                <CustomHook />
+                {/* <CustomHook /> */}
+                {/* Routes, Route */}
+                <Routes>
+                    <Route element={<Home />} path='/' />
+                    <Route element={<About />} path='/about' />
+                    <Route element={<Contact />} path='/contact' />
+                </Routes>
             </div>
         </div>
     )
