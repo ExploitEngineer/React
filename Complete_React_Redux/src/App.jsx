@@ -19,6 +19,7 @@ import UseEffect from './components/Hooks/useEffect/UseEffect';
 import { ApiFetchuseEffect } from './components/Hooks/useEffect/UseEffect';
 import UseRef from './components/Hooks/useRef/UseRef';
 import Navbar from './components/Navbar';
+import { CounterContext } from './components/context/context';
 
 const App = () => {
 
@@ -59,7 +60,9 @@ const App = () => {
                 {/* <UseEffect /> */}
                 {/* <ApiFetchuseEffect /> */}
                 {/* <UseRef /> */}
-                <Navbar count={count} />
+                <CounterContext.Provider value={{ count, setCount }}>
+                    <Navbar />
+                </CounterContext.Provider>
             </div>
         </div>
     )
