@@ -1,0 +1,24 @@
+1. What is React ?
+React is a JavaScript library for building user interfaces.
+React is a declarative, component-based library developed by Meta (Facebook) that helps developers build complex, interactive, and fast UIs using a virtual DOM and stateful components.
+
+
+2. Why Use React ?
+. Scalable for large apps
+. Reusable components
+. Huge community and ecosystem
+. Performance via Virtual DOM
+. Offical support for React Native (mobile apps)
+
+
+3. SPA (Single Page Application) Concept
+SPA is a web application that loads a single HTML page and dynamically updates the content on the page without reloading it, as the user interacts with the app.
+In Simpler Terms:
+. You load the app once.
+. After that, navigation and content updates happen via JavaScript - not full page reloads.
+. Everything happens in a single page (index.html) using AJAX or fetch, DOM updates, and client-side routing.
+
+
+4. What is JSX ?
+JSX (JavaScript XML) is a syntax extension for JavaScript used in React to describe what the UI should look like.
+It allows you to write HTML-like code directly inside JavaScript.
