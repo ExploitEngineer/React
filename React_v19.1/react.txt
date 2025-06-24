@@ -22,3 +22,9 @@ In Simpler Terms:
 4. What is JSX ?
 JSX (JavaScript XML) is a syntax extension for JavaScript used in React to describe what the UI should look like.
 It allows you to write HTML-like code directly inside JavaScript.
+
+
+5. What is a Fragment in React ?
+In React, Fragments let you group multiple elements without adding extra nodes to the DOM.
+Normally, a React component must return a single parent element. But what if you don't want unnecessary <div>'s wrapping everything ?
+That's where fragments come in.
