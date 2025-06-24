@@ -2,6 +2,7 @@ import { JsxSyntax } from "./components/01-jsx-syntax";
 import { EmbeddingExpression } from "./components/02-embedding-expression";
 import { FunctionalComponents } from "./components/03-functional-components";
 import { ClassComponents } from "./components/04-class-components";
+import { Props } from "./components/05-props";
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
       <FunctionalComponents />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <ClassComponents />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <Props name="rafay" />
     </div>
   );
 }

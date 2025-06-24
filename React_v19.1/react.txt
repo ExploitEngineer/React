@@ -32,3 +32,15 @@ That's where fragments come in.
 
 6. What is a Class Component ?
 A Class Component is an ES6 class that extends React.Component and must define a render() method that returns JSX.
+
+
+7. Props in React
+What are Props ?
+. Props = short for properties
+. They are read-only objects passed from parent to child component.
+. Think of them like function arguments for components.
+
+
+8. PropTypes - Type Checking for Props
+React doesn't enforce prop types be default. But with PropTypes, you can define the type and requirement of each prop.
+pnpm add prop-types
