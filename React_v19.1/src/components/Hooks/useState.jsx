@@ -29,6 +29,23 @@ export function UseStateHook() {
   }
   const [number, setNumber] = useState(() => expensive());
 
+  {
+    /* Updating Nested States */
+  }
+  const [value, setValues] = useState({
+    name: "rafay",
+    age: 17,
+    address: { city: "Islamabad", country: "Pakistan" },
+  });
+
+  function handleNestedStates() {
+    setValues({
+      ...value,
+      name: "whoami",
+      address: { ...value.address, city: "Lahore" },
+    });
+  }
+
   return (
     <div className="flex flex-col items-center justify-center gap-3">
       <h1 className="text-white font-bold text-xl">
@@ -118,6 +135,20 @@ export function UseStateHook() {
           onClick={() => setNumber(number + 1)}
         >
           Increment Number
+        </button>
+      </div>
+
+      {/* Updating Nested States */}
+      <div className="flex flex-col gap-2 items-center">
+        <p className="text-white font-medium">
+          Hello my name is {value.name} & i am {value.age} years old. I live in{" "}
+          {value.address.city} {value.address.country}
+        </p>
+        <button
+          className="bg-blue-600 text-white font-medium rounded-lg cursor-pointer py-2 px-8"
+          onClick={handleNestedStates}
+        >
+          Update Data
         </button>
       </div>
     </div>
