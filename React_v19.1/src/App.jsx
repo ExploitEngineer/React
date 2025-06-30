@@ -4,10 +4,11 @@ import { FunctionalComponents } from "./components/03-functional-components";
 import { ClassComponents } from "./components/04-class-components";
 import { Props } from "./components/05-props";
 import { UseStateHook } from "./components/Hooks/useState";
+import { EventHandling } from "./components/06-event-handling";
 
 export default function App() {
   return (
-    <div className="w-full min-h-screen bg-zinc-800 flex items-center justify-center flex-col">
+    <div className="w-full min-h-screen bg-zinc-800 flex items-center justify-center flex-col py-10">
       <JsxSyntax />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <EmbeddingExpression />
@@ -19,6 +20,8 @@ export default function App() {
       <Props name="rafay" />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <UseStateHook />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <EventHandling />
     </div>
   );
 }
