@@ -7,11 +7,11 @@ export function ControlledComponent() {
     setEmail(e.target.value);
   };
   return (
-    <form>
+    <form className="flex flex-col gap-2">
       <label className="text-white font-bold text-xl">Email:</label>
       <input
         type="email"
-        className="ms-3 p-2 outline-none rounded-lg border border-amber-600 text-white"
+        className="p-2 outline-none rounded-lg border border-amber-600 text-white"
         value={email}
         onChange={handleChange}
       />
