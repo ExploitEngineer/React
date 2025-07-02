@@ -5,6 +5,8 @@ import { ClassComponents } from "./components/04-class-components";
 import { Props } from "./components/05-props";
 import { UseStateHook } from "./components/Hooks/useState";
 import { EventHandling } from "./components/06-event-handling";
+import { ConditionalRendering } from "./components/07-conditional-rendering";
+import { ListsKeys } from "./components/08-lists-&-keys";
 
 export default function App() {
   return (
@@ -22,6 +24,10 @@ export default function App() {
       <UseStateHook />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <EventHandling />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <ConditionalRendering />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <ListsKeys />
     </div>
   );
 }
