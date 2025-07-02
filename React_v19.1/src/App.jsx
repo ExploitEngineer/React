@@ -7,6 +7,7 @@ import { UseStateHook } from "./components/Hooks/useState";
 import { EventHandling } from "./components/06-event-handling";
 import { ConditionalRendering } from "./components/07-conditional-rendering";
 import { ListsKeys } from "./components/08-lists-&-keys";
+import { ControlledComponent } from "./components/09-controlled-components";
 
 export default function App() {
   return (
@@ -28,6 +29,8 @@ export default function App() {
       <ConditionalRendering />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <ListsKeys />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <ControlledComponent />
     </div>
   );
 }
