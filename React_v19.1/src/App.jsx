@@ -9,6 +9,7 @@ import { ConditionalRendering } from "./components/07-conditional-rendering";
 import { ListsKeys } from "./components/08-lists-&-keys";
 import { ControlledComponent } from "./components/09-controlled-components";
 import { UnControlledComponents } from "./components/10-uncontrolled-components";
+import { UseStateForm } from "./components/11-useState-form";
 
 export default function App() {
   return (
@@ -34,6 +35,8 @@ export default function App() {
       <ControlledComponent />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <UnControlledComponents />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <UseStateForm />
     </div>
   );
 }
