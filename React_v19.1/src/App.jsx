@@ -11,6 +11,7 @@ import { ControlledComponent } from "./components/09-controlled-components";
 import { UnControlledComponents } from "./components/10-uncontrolled-components";
 import { UseStateForm } from "./components/11-useState-form";
 import { FormValidation } from "./components/12-form-validation";
+import { UseEffect } from "./components/Hooks/useEffect";
 
 export default function App() {
   return (
@@ -40,6 +41,8 @@ export default function App() {
       <UseStateForm />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <FormValidation />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <UseEffect />
     </div>
   );
 }
