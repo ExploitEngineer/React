@@ -43,3 +43,7 @@ JSX (JavaScript XML) is a syntax extension for javascript that looks like HTML, 
 8. What is Composition in React ?
 Composition is the pattern of building complex UIs by combining smaller reusable components - like assembling Lego blocks.
 Instead of Inheritance (Like in OOP), React Favors composition to structure logic and UI.
+
+9. What is Component LifeCycle in React ?
+The lifecycle of a React component refers to the stages a component goes through from when it is created, displayed, updated, and removed from the DOM.
+Mount (appear) -> Update (change) -> Unmount (disappear)
