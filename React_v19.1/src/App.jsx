@@ -18,6 +18,9 @@ import { UseCallback } from "./components/Hooks/useCallback";
 import { Parent } from "./components/Hooks/context/parent";
 import { UseReducer } from "./components/Hooks/useReducer";
 import { ChildrenProps } from "./components/13-children-props";
+import withLoader from "./components/14-HOC";
+
+const ChildrenPropsWithLoader = withLoader(ChildrenProps);
 
 export default function App() {
   return (
@@ -63,6 +66,10 @@ export default function App() {
       <ChildrenProps>
         <p className="text-white font-medium">I am children prop...</p>
       </ChildrenProps>
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <ChildrenPropsWithLoader>
+        <p className="text-white font-medium">I am children prop...</p>
+      </ChildrenPropsWithLoader>
     </div>
   );
 }
