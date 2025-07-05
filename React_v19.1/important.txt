@@ -39,3 +39,7 @@ You can think of a component as a function or class that returns JSX (HTML + JS 
 
 7. What is JSX ?
 JSX (JavaScript XML) is a syntax extension for javascript that looks like HTML, and it's used to describe what the UI should look like in React. It lets you write UI elements in a familiar, HTML-like way inside javascript code.
+
+8. What is Composition in React ?
+Composition is the pattern of building complex UIs by combining smaller reusable components - like assembling Lego blocks.
+Instead of Inheritance (Like in OOP), React Favors composition to structure logic and UI.
