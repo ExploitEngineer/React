@@ -1,0 +1,34 @@
+1. What are CLI Tools in React Projects ?
+CLI (Command Line Interface) tools help automate project setup and development workflows.
+When building React apps, you can either:
+- Set up everything manually (Webpack, Babel, React, etc.)
+- Or use a CLI tool to scaffold all of that for you (e.g., Vite, Create React App).
+
+2. What is Vite ?
+Vite is a modern frontend build tool that provides:
+- Fast startup using native ES modules (no bundling at dev time)
+- Lightning-fast HMR (Hot Module Replacement)
+- Optimized production build using Rollup
+- First-class support for TypeScript, JSX, CSS Modules, etc.
+- Plugin ecosystem similar to Rollup/Vite itself
+
+3. How Vite works under the hood ?
+- Uses native ESM (ES Modules) in the browser.
+- Doesn't bundle - instead, it serves files direcly.
+- When a file changes, only that module is reloaded -> super fast HMR.
+Build Mode:
+- Uses Rollup to bundle the app efficiently
+- Tree-shakes, splits code, minifies for production
+
+4. Creating a React App with Vite
+Prerequisites:
+Make sure you have:
+- Node.js (LTS version)
+- npm or yarn or pnpm
+
+npm create vite@latest my-react-app
+
+5. What is Webpack ?
+Webpack is a module bundler. Its job is to bundle your javascript code and assets (CSS, Images, Fonts, etc.) into optimized files for the browser.
+Think of it like this: 
+        Webpack takes your entire React project (JSX, CSS, Images), understands all the imports, and builds a final set of files that can run in a browser.
