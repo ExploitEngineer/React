@@ -15,6 +15,7 @@ import { UseEffect } from "./components/Hooks/useEffect";
 import { UseRef } from "./components/Hooks/useRef";
 import { UseMemo } from "./components/Hooks/useMemo";
 import { UseCallback } from "./components/Hooks/useCallback";
+import { Parent } from "./components/Hooks/context/parent";
 
 export default function App() {
   return (
@@ -52,6 +53,8 @@ export default function App() {
       <UseMemo />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <UseCallback />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <Parent />
     </div>
   );
 }
