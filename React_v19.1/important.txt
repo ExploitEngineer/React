@@ -32,3 +32,7 @@ npm create vite@latest my-react-app
 Webpack is a module bundler. Its job is to bundle your javascript code and assets (CSS, Images, Fonts, etc.) into optimized files for the browser.
 Think of it like this: 
         Webpack takes your entire React project (JSX, CSS, Images), understands all the imports, and builds a final set of files that can run in a browser.
+
+6. What are component in React ?
+A component in React is a reusable, independent piece of UI that can manage its own state and logic.
+You can think of a component as a function or class that returns JSX (HTML + JS combined).
