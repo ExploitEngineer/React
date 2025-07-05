@@ -14,6 +14,7 @@ import { FormValidation } from "./components/12-form-validation";
 import { UseEffect } from "./components/Hooks/useEffect";
 import { UseRef } from "./components/Hooks/useRef";
 import { UseMemo } from "./components/Hooks/useMemo";
+import { UseCallback } from "./components/Hooks/useCallback";
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <UseMemo />
       <hr className="h-1 my-5 bg-red-800 w-96" />
+      <UseCallback />
     </div>
   );
 }
