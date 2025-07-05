@@ -17,6 +17,7 @@ import { UseMemo } from "./components/Hooks/useMemo";
 import { UseCallback } from "./components/Hooks/useCallback";
 import { Parent } from "./components/Hooks/context/parent";
 import { UseReducer } from "./components/Hooks/useReducer";
+import { ChildrenProps } from "./components/13-children-props";
 
 export default function App() {
   return (
@@ -58,6 +59,10 @@ export default function App() {
       <Parent />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <UseReducer />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <ChildrenProps>
+        <p className="text-white font-medium">I am children prop...</p>
+      </ChildrenProps>
     </div>
   );
 }
