@@ -36,3 +36,6 @@ Think of it like this:
 6. What are component in React ?
 A component in React is a reusable, independent piece of UI that can manage its own state and logic.
 You can think of a component as a function or class that returns JSX (HTML + JS combined).
+
+7. What is JSX ?
+JSX (JavaScript XML) is a syntax extension for javascript that looks like HTML, and it's used to describe what the UI should look like in React. It lets you write UI elements in a familiar, HTML-like way inside javascript code.
