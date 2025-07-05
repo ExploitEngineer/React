@@ -1,6 +1,6 @@
 {
   /* 
-What is useRef Hook ?
+NOTE: What is useRef Hook ?
 useRef is a special hook that lets you store a value or get a reference to a DOM element, without causing the component to re-render.
 Keep values even when the component updates without making it re-render.
 Useful for interacting with DOM elements direclty.

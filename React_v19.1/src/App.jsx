@@ -13,6 +13,7 @@ import { UseStateForm } from "./components/11-useState-form";
 import { FormValidation } from "./components/12-form-validation";
 import { UseEffect } from "./components/Hooks/useEffect";
 import { UseRef } from "./components/Hooks/useRef";
+import { UseMemo } from "./components/Hooks/useMemo";
 
 export default function App() {
   return (
@@ -46,6 +47,9 @@ export default function App() {
       <UseEffect />
       <hr className="h-1 my-5 bg-red-800 w-96" />
       <UseRef />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <UseMemo />
+      <hr className="h-1 my-5 bg-red-800 w-96" />
     </div>
   );
 }
