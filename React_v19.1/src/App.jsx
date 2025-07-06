@@ -19,6 +19,10 @@ import { Parent } from "./components/Hooks/context/parent";
 import { UseReducer } from "./components/Hooks/useReducer";
 import { ChildrenProps } from "./components/13-children-props";
 import withLoader from "./components/14-HOC";
+import { Home } from "./components/React_Router/home";
+import { About } from "./components/React_Router/about";
+import { Contact } from "./components/React_Router/contact";
+import { Routes, Route, Link } from "react-router-dom";
 
 const ChildrenPropsWithLoader = withLoader(ChildrenProps);
 
@@ -70,6 +74,30 @@ export default function App() {
       <ChildrenPropsWithLoader>
         <p className="text-white font-medium">I am children prop...</p>
       </ChildrenPropsWithLoader>
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <h1 className="text-white font-bold">React Routers</h1>
+      <div className="flex items-center gap-3">
+        <Link to="/home">
+          <button className="py-2 px-4 rounded-lg cursor-pointer bg-amber-400 text-white font-medium">
+            Home
+          </button>
+        </Link>
+        <Link to="/about">
+          <button className="py-2 px-4 rounded-lg bg-amber-400  cursor-pointer text-white font-medium">
+            About
+          </button>
+        </Link>
+        <Link to="/contact">
+          <button className="py-2 px-4 rounded-lg bg-amber-400 cursor-pointer text-white font-medium">
+            Contact
+          </button>
+        </Link>
+      </div>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
