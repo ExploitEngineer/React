@@ -23,6 +23,7 @@ import { Home } from "./components/React_Router/home";
 import { About } from "./components/React_Router/about";
 import { Contact } from "./components/React_Router/contact";
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { ZustandCounter } from "./components/15-zustand-counter";
 
 const ChildrenPropsWithLoader = withLoader(ChildrenProps);
 
@@ -110,6 +111,8 @@ export default function App() {
       >
         Navigate to Home
       </button>
+      <hr className="h-1 my-5 bg-red-800 w-96" />
+      <ZustandCounter />
     </div>
   );
 }
