@@ -22,11 +22,16 @@ import withLoader from "./components/14-HOC";
 import { Home } from "./components/React_Router/home";
 import { About } from "./components/React_Router/about";
 import { Contact } from "./components/React_Router/contact";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
 const ChildrenPropsWithLoader = withLoader(ChildrenProps);
 
 export default function App() {
+  const navigate = useNavigate();
+
+  function goToHome() {
+    navigate("/home");
+  }
   return (
     <div className="w-full min-h-screen bg-zinc-800 flex items-center justify-center flex-col py-10">
       <JsxSyntax />
@@ -98,6 +103,13 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <button
+        type="button"
+        onClick={goToHome}
+        className="py-2 px-4 rounded-lg bg-sky-600 cursor-pointer text-white font-medium"
+      >
+        Navigate to Home
+      </button>
     </div>
   );
 }
