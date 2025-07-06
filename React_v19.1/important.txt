@@ -47,3 +47,7 @@ Instead of Inheritance (Like in OOP), React Favors composition to structure logi
 9. What is Component LifeCycle in React ?
 The lifecycle of a React component refers to the stages a component goes through from when it is created, displayed, updated, and removed from the DOM.
 Mount (appear) -> Update (change) -> Unmount (disappear)
+
+10. 🎭 What is Render Props in React ?
+Render Props is a pattern where a component accepts a function as a prop and calls it to render UI dynamically.
+This allows you to share logic between components while letting the consumer decide what to render.
