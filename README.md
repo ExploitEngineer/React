@@ -36,10 +36,10 @@ Make sure you have the following installed on your system:
 ### Steps to Install and Run
 ```bash
 # Step 1: Clone the repository
-$ git clone https://github.com/ExploitEngineer/React_Basics.git
+$ git clone https://github.com/ExploitEngineer/React.git
 
 # Step 2: Navigate to the project directory
-$ cd react-basics-counter-app
+$ cd React
 
 # Step 3: Install dependencies using npm or yarn
 $ npm install
@@ -65,11 +65,11 @@ To ensure seamless setup, here is a bash script for quick installation:
 
 # Clone the repository
 echo "Cloning the repository..."
-git clone https://github.com/ExploitEngineer/React_Basics.git
+git clone https://github.com/ExploitEngineer/React.git
 
 # Navigate to the project directory
 echo "Navigating to the project directory..."
-cd react-basics-counter-app || exit
+cd React || exit
 
 # Install dependencies
 echo "Installing dependencies..."
@@ -83,23 +83,6 @@ npm run dev || yarn dev
 echo "The application is running at: http://localhost:3000"
 ```
 Save this script in a `.sh` file, make it executable (`chmod +x filename.sh`), and run it for automated setup.
-
----
-
-## Folder Structure
-
-The project is structured as follows:
-```plaintext
-react-basics-counter-app/
-├── public/          # Static assets such as images or public files.
-├── src/             # Source code for the React app.
-│   ├── components/  # Reusable React components.
-│   ├── App.jsx       # Main application file.
-│   ├── main.jsx      # Entry point for React and Vite.
-│   ├── styles.css    # Global styles for the app.
-├── package.json     # Project metadata and dependencies.
-├── vite.config.js   # Vite configuration file.
-```
 
 ---
 
@@ -152,6 +135,6 @@ For more information about React and Vite, you can explore the following resourc
 
 ## Contact
 For any questions, feedback, or support, feel free to reach out:
-- **GitHub**: [yourusername](https://github.com/yourusername)
-- **Email**: your-email@example.com
+- **GitHub**: [ExploitEngineer](https://github.com/ExploitEngineer)
+- **Email**: abdulrafayofficial.work@gmail.com
 
