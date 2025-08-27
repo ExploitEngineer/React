@@ -1,4 +1,6 @@
+# ===============================
 # Logs
+# ===============================
 logs
 *.log
 npm-debug.log*
@@ -7,12 +9,37 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+Complete_React_Redux/node_modules
+
+# ===============================
+# Build outputs
+# ===============================
 dist
 dist-ssr
+build
 *.local
 
-# Editor directories and files
+# ===============================
+# TypeScript
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===============================
+# Editor settings
+# ===============================
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,7 +49,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-node_modules/
+
+# ===============================
+# Existing project-specific ignores
+# ===============================
 Complete_React_Redux/.gitignore
-Complete_React_Redux/node_modules
 Complete_React_Redux/README.md
+
+# ===============================
+# Miscellaneous
+# ===============================
+*.tgz
+*.cache
+*.vercel
+.next
+out
+coverage
